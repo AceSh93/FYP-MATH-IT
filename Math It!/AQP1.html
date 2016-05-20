@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Math It!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/half-slider.css" rel="stylesheet">
+	
+	<link href="FormsStyle.css" rel="stylesheet">
+	
+	<script src="Addition.js"></script>
+
+
+</head>
+
+<body onload="genEquation('+', 1)">
+	
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-10">
+                <!--<h1>Math It!</h1>-->
+				<img src="Logo2.png" width="300px">
+            </div>
+						<div class="col-lg-2">
+			<img src="increase_font.png" style="width:30px;margin-right:25px;display:inline-block; margin-top:25px; cursor:pointer" onclick="increaseFont()"><img src="decrease_font.png" style="width:28px;display:inline-block; margin-top:25px; cursor:pointer;" onclick="decreaseFont()">
+			</div>
+        </div>
+
+        <hr>
+
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <h2>Addition</h2>
+                <h2 style="display:inline-block">Level:</h2><h2 id ="levelNo" style="display:inline-block">1</h2><!-- Updated with with JS -->
+					<form>
+						<div id="form"></div>
+						<input type="button" value="Submit" style="margin-bottom:5px;" onclick="verifyAnswers()">	
+					</form>
+					<form action="Addition.html">
+					<input type="Submit" value="Step Back">
+					</form>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    </script>
+
+    <script>
+            function goBack() {
+            window.history.back();
+        }
+    </script>
+	
+	
+
+</body>
+
+</html>

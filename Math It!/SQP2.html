@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Math It!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/half-slider.css" rel="stylesheet">
+	
+	<script src="Addition.js"></script>
+
+
+</head>
+
+<body onload="genEquation('-', 2)">
+	
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-10">
+                <h1>Math It!</h1>
+            </div>
+			<div class="col-lg-2">
+			<p style="display:inline-block; margin-top:10px; cursor:pointer" onclick="increaseFont()">Increase font, </p><p style="display:inline-block; margin-top:10px;cursor:pointer" onclick="decreaseFont()">Normal font </p>
+			</div>
+        </div>
+
+        <hr>
+
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <h2>Subtraction</h2>
+                <h2 id ="levelNo">1</h2><!-- Updated with with JS -->
+					<form>
+						<div id="form"></div>
+						<input type="button" value="Submit" onclick="verifyAnswers()">
+					</form>
+							<form action="SQP1.html">
+							<input type="Submit" value="Step Back">
+							</form>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    </script>
+
+    <script>
+            function goBack() {
+            window.history.back();
+        }
+    </script>
+	
+	
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.typeMenu1:hover{
+	box-shadow: 0px 3px 35px rgb(59, 210, 61), 0px -3px 35px rgb(59, 210, 61);
+}
+.typeMenu2:hover{
+box-shadow: 0px 3px 35px rgb(255, 221, 53), 0px -3px 35px rgb(255, 221, 53);
+}
+.typeMenu3:hover{
+	box-shadow: 0px 3px 35px red, 0px -3px 35px red;
+}
+.menuItem{
+	margin: 10px 0;
+	width: 312px !important;
+    border-radius: 5px;
+	font-family: Arial Black, Gadget, sans-serif  !important;
+	padding: 2px;
+    color: #3255AB !important;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+h2{
+	font-size: 69px;
+}
